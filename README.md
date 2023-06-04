@@ -2,27 +2,27 @@
 # Should know linux commands for kubernetes developers
 
 ## Aliasing command to speed up
-```
+```sh
 alias docker="sudo docker"
 ```
 
 ## To find host and ip address information
-```
+```sh
 hostname -I
 hostname
 ```
 
 ## Display/List network configuration
-```
+```sh
 ifconfig
 ```
 
 ## Check OS version details
-```                       
+```sh                     
 cat /etc/os-release                       
 ```
 ## List enviornment variables
-```
+```sh
 env
 ```
 
