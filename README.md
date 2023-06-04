@@ -9,8 +9,14 @@ alias docker="sudo docker"
 ## To find host and ip address information
 ```
 hostname -I
-Hostname
+hostname
 ```
+
+## Display/List network configuration
+```
+ifconfig
+```
+
 ## Check OS version details
 ```                       
 cat /etc/os-release                       
@@ -44,9 +50,6 @@ Service ssh start
 
 woami
 
-Ifconfig
-
-Hostname
 
 Ping
 Curl 
