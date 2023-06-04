@@ -57,6 +57,11 @@ key1=value1
 key2=value2
 EOF
 
+# Check OS version details
+```                       
+cat /etc/os-release                       
+```
+
 
 
 
