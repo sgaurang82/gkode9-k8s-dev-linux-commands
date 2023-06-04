@@ -27,36 +27,62 @@ cat /etc/os-release
 ```sh
 env
 ```
-
-touch test.txt empty file
-
-grep search content in output
+## Create empty file
+```sh
+touch test.txt
+```
+## Search Content
+### Search in list. line ends with ch
+```sh
 ls -l | grep ch$
-Grep ab file.txt search ab in text file
+```
+### Search contenin file. Follwoing will search ab in text file
+```sh
+grep ab file.txt
+```
+### Search in list, first line starts with l
+```sh
+ls -l | grep ^l line starts with l
+```
 
-Ls -l | grep ^l line starts with l
-Ls -l | grep ch$ lines end with ch
-
+### Search in list, first line starts with l
+```sh
 ls -l | grep "\->" search arrows
+```
+###  Search in long listing file list
+```sh
+ls -li | grep "2 root"
+```
 
-ls -li | grep "2 root" hard file and first number points to same I node
-W get current users
+## Get current users
+```sh
+w get 
+```
 
-Ps -f command started the process
-htop interactive window to see processes
+## Process list fully formatted
+```sh
+ps -f
+```
+## Process list interactive
+```sh
+htop
+```
 
-Mkdir 2> stderror.txt outputs error in file
+## Output error in file. use 2>
+```sh
+Mkdir 2> stderror.txt
+```
+## Create file using multiline
+```sh
+Creating file.
+cat >> config.txt <<EOF
+key1=value1
+key2=value2
+EOF
+```
 
-service ssh status
-Service ssh start
 
-woami
-
-
-Ping
-Curl 
-Wget -- download files
-
+--- users 
 Adduser interactive
 
 sudo chmod u+x name.sh
@@ -64,16 +90,20 @@ sudo chmod u+x name.sh
 Useradd
 passwd
 
+woami
+
+
+ping
+curl 
+wget -- download files
+
+
 service ssh status
+Service ssh start
 
 
-Creating file.
-cat >> config.txt <<EOF
-key1=value1
-key2=value2
-EOF
 
-
+                  
 
 
 
