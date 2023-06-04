@@ -1,13 +1,24 @@
 
 # Should know linux commands for kubernetes developers
 
-
+## Aliasing command to speed up
+```
 alias docker="sudo docker"
+```
 
+## To find host and ip address information
+```
 hostname -I
 Hostname
-cat /etc/os-release
+```
+## Check OS version details
+```                       
+cat /etc/os-release                       
+```
+## List enviornment variables
+```
 env
+```
 
 touch test.txt empty file
 
@@ -57,10 +68,6 @@ key1=value1
 key2=value2
 EOF
 
-# Check OS version details
-```                       
-cat /etc/os-release                       
-```
 
 
 
