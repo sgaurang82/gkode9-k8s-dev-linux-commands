@@ -1,6 +1,8 @@
 
 # Should know linux commands for kubernetes developers
 
+This list of command will work as handy book for windows developer with no exposure to linux.
+
 ## Aliasing command to speed up
 ```sh
 alias docker="sudo docker"
